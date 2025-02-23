@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.krisped",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "RSGameObjectMixin",
+    "RSGroundObjectMixin",
+    "RSDecorativeObjectMixin",
+    "RSWallObjectMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
